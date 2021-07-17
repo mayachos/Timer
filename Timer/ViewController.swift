@@ -90,8 +90,8 @@ class ViewController: UIViewController, backgroundTimerDelegate {
                 count += elapsedTime
                 label.text = "\(count)"
                 
-                //【変更】timeIntervalを0.01に変更
                 //再びタイマーを起動
+                //【変更】timeIntervalを0.01に変更
                 timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.up), userInfo: nil, repeats: true)
             }
         }
