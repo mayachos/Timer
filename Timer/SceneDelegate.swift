@@ -9,7 +9,7 @@ import UIKit
 
 //デリゲート用の変数、関数
 protocol backgroundTimerDelegate: class {
-    // elapsedTimeをInt型からFloat型に変更
+    // 【変更】elapsedTimeをInt型からFloat型に変更
     func setCurrentTimer(_ elapsedTime:Float)
     func deleteTimer()
     func checkBackground()
